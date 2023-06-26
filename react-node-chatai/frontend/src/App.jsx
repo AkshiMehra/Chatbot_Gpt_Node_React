@@ -67,7 +67,7 @@ function App() {
     setChats(msgs);
 
     setMessage('');
-    fetch('http://localhost:8000/', {
+    fetch('https://chatbot-gpt-node-react-fpdz.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
