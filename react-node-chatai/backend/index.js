@@ -10,13 +10,13 @@ app.use(cors());
 
 const configuration = new Configuration({
   organization: "org-XT9Y0R3BswqJhRGW6WnkkFtV",
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
 app.post("/", async (request, response) => {
   const { chats } = request.body;
-
+  
   const result = await openai.createChatCompletion({
     model: "gpt-3.5-turbo",
     messages: [
