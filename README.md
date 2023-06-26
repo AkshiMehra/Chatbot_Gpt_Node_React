@@ -1,6 +1,6 @@
 # Chatbot_Gpt_Node_React
 This project consists of a web app bot which has react in frontend and node at backend.
-# Chatbot_gpt_Node_React is a Web Application where one can interact with the GPT Language model through voice inputs. 
+# Chatbot_gpt_Node_React is application that utilizes the power of the GPT-3.5 model to provide conversational responses to user input, enabling interactive and dynamic conversations between users and the chatbot.
 
 ## For running the application on your machine, follow the below steps:
 
